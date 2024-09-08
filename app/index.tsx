@@ -65,6 +65,58 @@ const App = () => {
           </View>
           <Image source={require("../assets/refresh.png")} />
         </View>
+
+        <View style={{ marginTop: 36 }}>
+          <View style={{ flexDirection: "row", alignItems: "center" }}>
+            <Image source={require("../assets/sun.png")} />
+            <Text
+              style={{
+                fontFamily: "Inter_400Regular",
+                fontSize: 15,
+                color: "white",
+                marginLeft: 1,
+                letterSpacing: 3,
+              }}
+            >
+              GOOD MORNING
+            </Text>
+          </View>
+
+          <View style={{ marginTop: 8 }}>
+            <Text>
+              <Text
+                style={{
+                  fontFamily: "Inter_400Regular",
+                  fontSize: 100,
+                  color: "white",
+                }}
+              >
+                11:30
+              </Text>
+              <Text
+                style={{
+                  fontFamily: "Inter_400Regular",
+                  fontSize: 15,
+                  color: "white",
+                }}
+              >
+                BST
+              </Text>
+            </Text>
+          </View>
+          <View style={{ marginTop: 16 }}>
+            <Text
+              style={{
+                fontFamily: "Inter_400Regular",
+                fontSize: 15,
+                color: "white",
+                letterSpacing: 3,
+              }}
+            >
+              IN LONDON, UK
+            </Text>
+          </View>
+        </View>
       </View>
     </ImageBackground>
   );
